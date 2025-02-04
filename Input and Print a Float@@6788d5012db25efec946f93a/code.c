@@ -2,7 +2,6 @@
 int main() {
     int i;
     scanf("f",&i);
-    printf(i)
-    
-    return 0;
+    printf(i);
+return 0;
 }
