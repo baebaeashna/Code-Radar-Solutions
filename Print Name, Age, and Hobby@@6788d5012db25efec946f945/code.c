@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main(){
     char Name[100];
     int age;
