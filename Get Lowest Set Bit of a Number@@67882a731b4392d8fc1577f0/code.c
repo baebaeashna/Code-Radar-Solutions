@@ -3,9 +3,9 @@ int findlow(int num){
     if(num==0){
         return -1;
     }
-    int finlow=num & -num;
+    int findlow=num & -num;
     int pos=0;
-    while(findflow >>=1){
+    while(findlow >>=1){
         pos++;
     }
     return pos;
@@ -13,7 +13,7 @@ int findlow(int num){
 int main(){
     int num;
     scanf("%d",&num);
-    int pos = findflow(num);
+    int pos = findlow(num);
     if(pos==-1){
         printf("No\n");
     }
