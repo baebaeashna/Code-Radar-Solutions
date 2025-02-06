@@ -14,7 +14,7 @@ int main(){
     int num;
     scanf("%d",&num);
     int pos = findflow(num);
-    if(pos==1){
+    if(pos==-1){
         printf("No\n");
     }
     else{
