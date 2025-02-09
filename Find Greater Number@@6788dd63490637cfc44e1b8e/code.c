@@ -2,10 +2,12 @@
 int main() {
     int a,b;
     scanf("%d",&a,&b);
-    if(a>b){
+    if(a>b)
         printf("%d",a);
-    }
-    else
-    printf("%d",b);
+    else if(b>a)
+        printf("%d",b);
+    else:
+        printf("both are equal");
+
     return 0;
 }
