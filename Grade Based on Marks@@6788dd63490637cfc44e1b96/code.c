@@ -13,6 +13,6 @@ int main() {
     else if(a<60)
     printf("F");
     else
-    printf("Invalid grade")
+    printf("Invalid grade");
     return 0;
 }
