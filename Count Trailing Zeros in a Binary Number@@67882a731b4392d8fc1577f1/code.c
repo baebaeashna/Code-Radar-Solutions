@@ -4,7 +4,7 @@ int counttrail(int num) {
         return sizeof(int)*8;
     }
     int count=0;
-    while(num&1)==0{
+    while((num&1)==0){
         count++;
         num>>=1;
     }
