@@ -6,6 +6,6 @@ int main(){
     int num;
     scanf("%d",&num);
     int fliped = flipbit(num);
-    printf("d\n",fliped);
+    printf("%d\n",fliped);
     return 0;
 }
