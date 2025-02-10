@@ -8,7 +8,7 @@ int counttrail(int num) {
         count++;
         num>>=1;
     }
-    return 0;
+    return count;
 }
 int main(){
     int num;
