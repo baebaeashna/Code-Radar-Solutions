@@ -22,7 +22,7 @@ switch(a){
     printf("28");
     break;
     default:
-    printf("Invalid Month");
+    printf("Invalid month");
     return 0;
 
 }
