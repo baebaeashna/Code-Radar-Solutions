@@ -16,6 +16,6 @@ int main(){
     else if(o='*')
     printf("%d",a*b);
     else 
-    printf("Invalid operator")
+    printf("Invalid operator");
     return 0;
 }
