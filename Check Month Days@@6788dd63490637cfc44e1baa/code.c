@@ -21,6 +21,9 @@ switch(a){
     case 2:
     printf("28");
     break;
+    case:
+    printf("Invalid Month");
+    break;
 
 }
 return 0;
