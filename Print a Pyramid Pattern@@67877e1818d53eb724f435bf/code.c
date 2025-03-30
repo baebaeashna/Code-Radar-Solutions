@@ -1,4 +1,4 @@
-#include<stdio.h>{
+#include<stdio.h>
     int main(){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i+1;j++){
@@ -8,4 +8,3 @@
         }
         return 0;
     }
-}
