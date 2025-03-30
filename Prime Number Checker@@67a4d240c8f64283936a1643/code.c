@@ -20,6 +20,6 @@ int isprime(int a){
 int main() {
     int n;
     scanf("%d",n);
-    isprime(n)
+    isprime(n);
  return 0;
 }
